@@ -1,0 +1,8 @@
+/**
+ * Settings baked into the build (scripts/bake-key.mjs writes this file).
+ * Empty by default. When it holds an API key, the built .snplg contains that
+ * key: do not share it.
+ */
+import type {Settings} from './settings';
+
+export const BAKED: Partial<Settings> = {};

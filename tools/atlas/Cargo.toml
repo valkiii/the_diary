@@ -1,0 +1,8 @@
+[package]
+name = "atlas"
+version = "0.1.0"
+edition = "2021"
+description = "Bakes Dancing Script into single-line pen paths for the Supernote diary plugin"
+
+[dependencies]
+ab_glyph = "0.2"

@@ -1,0 +1,18 @@
+# builds (the baked .snplg files can contain a token or API key)
+dist/
+*.snplg
+plugin/build/
+plugin/android/build/
+plugin/android/app/build/
+plugin/android/.gradle/
+plugin/android/.kotlin/
+plugin/android/local.properties
+tools/atlas/target/
+node_modules/
+
+# secrets
+bridge/.diary-token
+plugin/src/baked.ts
+.env
+*.local.*
+.DS_Store

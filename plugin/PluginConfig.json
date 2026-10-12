@@ -1,0 +1,16 @@
+{
+  "name": "The Diary",
+  "desc": "Tom Riddle's diary, after riddle by Maxime Rivest. Write in a note called Diary, rest your pen, and the diary drinks your ink and answers in its own hand. The answer comes from an AI you choose: your own bridge (Claude via Claude Code, or a local Ollama model) or any OpenAI-compatible API. Only the words you wrote (and, if you allow it, a picture of the page) are sent to it. Memories stay on this tablet.",
+  "author": "",
+  "iconPath": "assets/icon.png",
+  "versionName": "0.1.5",
+  "versionCode": "6",
+  "pluginID": "mxhyi8u4pwzt3v94",
+  "pluginKey": "TheDiary",
+  "jsMainPath": "index",
+  "uses-permissions": [
+    "plugin.permission.FILE:READ",
+    "plugin.permission.FILE:WRITE",
+    "plugin.permission.INTERNET"
+  ]
+}
